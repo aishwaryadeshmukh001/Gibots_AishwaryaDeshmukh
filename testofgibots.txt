@@ -1,0 +1,36 @@
+Name:Aishwarya Anil Deshmukh
+Email Id:aishwaryadesh001@gmail.com
+mobile no:9028468956.
+
+
+
+create database student;
+create table studentage
+(
+name varchar(20),
+age int,
+marks int
+);
+
+insert into studentage(name,age,marks)
+values
+("Ajinkya",25,80),
+("Krishna",23,90),
+("Ananta",28,100),
+("Pruthvi",24,120);
+
+select * from studentage order by age;
+
+
+
+
+class Test{
+   public static void main(String args[]){
+      int[] Studentsmarks= {80, 90, 100, 120};
+      int sum = 0;
+      for( int num : Studentsmarks) {
+          sum = sum+num;
+      }
+      System.out.println("Sum of array elements is:"+sum);
+   }
+}
